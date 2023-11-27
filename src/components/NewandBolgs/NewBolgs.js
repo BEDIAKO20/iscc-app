@@ -372,9 +372,9 @@ function NewBolgs() {
           <div className="col-md-5 ">
             <div className="formBox ">
             <form >
-    <input type="text" id="fname" name="firstname" placeholder="First Name*"/>
-    <input type="text" id="lname" name="lastname" placeholder="Last Name*"/>
-    <input type="text" id="lname" name="lastname" placeholder="Email Address*"/>
+    <input type="text" id="fname" name="firstname" placeholder="First Name* " className="inputForm"/>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name*" className="inputForm" />
+    <input type="text" id="lname" name="lastname" placeholder="Email Address*" className="inputForm"/>
   </form>
             </div>
           </div>

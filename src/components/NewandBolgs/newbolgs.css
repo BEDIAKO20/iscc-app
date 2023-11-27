@@ -439,7 +439,7 @@ line-height: 18px; /* 128.571% */
 }
 
 
-input[type=text], select {
+.inputForm[type=text], select {
   width: 553px;
   height: 75px;
   padding: 12px 20px;
@@ -448,6 +448,7 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+  border: none;
 }
 
 
