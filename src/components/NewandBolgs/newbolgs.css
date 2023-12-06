@@ -79,7 +79,9 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
-  position: relative;
+  /* position: absolute;
+  top: 0%;
+  bottom: 0%; */
 }
 
 .moreNew-text{
@@ -92,12 +94,11 @@ letter-spacing: -1.6px;
 }
 
 .card-new{
+  display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 0;
   margin-bottom: 5%;
-  
-  
+gap: 7%;
 }
 .New-ImageBox1{
   background-image: url(../../assets/moreNew4.png);
@@ -162,12 +163,15 @@ letter-spacing: -0.56px;
 }
 
 .BlooddthreeBox{
-  position:  absolute !important;
-  top: 160% !important;
-  right: 45%;
-  width: 12% !important;
+  text-align: center;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 17% !important;
   text-align: center;
   justify-content: center;
+  margin-left: 1%;
+ padding-top: 1%;
 }
 .bloodImage{
   width: 140% !important;
@@ -186,6 +190,7 @@ text-transform: uppercase;
   /* width: 45%; */
   text-align: center;
   justify-content: center;
+  padding-top: 10%;
   /* padding-left: %; */
 }
 

@@ -57,8 +57,8 @@ function NewBolgs() {
         </div>
       </div>
 
-      <div className="container-fluid my-5 ">
-        <div className="row moreNew-Bg ">
+      <div className="container-fluid  CardBox mt-5">
+        <div className="row moreNew-Bg pt-5 ">
           <div className="newbox-text d-flex justify-content-center  justify-content-between ">
             <h1 className="ms-5 moreNew-text">
               More <span className="newSpan">News</span>{" "}
@@ -66,9 +66,9 @@ function NewBolgs() {
             <p className="me-5 newSpan">See More</p>
           </div>
 
-          <div className="row gap-5 card-new ">
+          <div className="row  card-new pt-5">
             <div className="col-md-2">
-              <div class="card" style={{ width: "18rem" }}>
+              <div class="card " style={{ width: "18rem" }}>
                 <div className="New-ImageBox1">
                   <span></span>
                   <img src={redBlood} class="card-img-top1 w-50 " alt="..." />
@@ -88,7 +88,7 @@ function NewBolgs() {
                 </div>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-lg-2">
               <div class="card " style={{ width: "18rem" }}>
                 <div className="New-ImageBox2">
                   <img
@@ -115,7 +115,7 @@ function NewBolgs() {
                 </div>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-lg-2">
               <div class="card" style={{ width: "18rem" }}>
                 <div className="New-ImageBox3">
                   <img
@@ -139,7 +139,7 @@ function NewBolgs() {
                 </div>
               </div>
             </div>
-            <div className="col-md-2">
+            <div className="col-lg-2">
               <div class="card" style={{ width: "18rem" }}>
                 <div className="New-ImageBox4">
                   <img
@@ -167,15 +167,17 @@ function NewBolgs() {
               </div>
             </div>
           </div>
+
+          <div className="BlooddthreeBox   ">
+            <img src={redbloodImage} className=" bloodImage" />
+          </div>
         </div>
       </div>
 
       <div className="container mt-5">
         <div className="NewThreeContainer">
-          <div className="BlooddthreeBox  justify-content-center d-flex  ">
-            <img src={redbloodImage} className=" bloodImage" />
-          </div>
-          <div className="tellYouStories pt-5   justify-content-center d-flex text-center">
+         
+          <div className="tellYouStories    justify-content-center d-flex text-center">
             <h6 className="telling-text ">
               Telling our stories <span className="newSpan">unfiltered</span>{" "}
               <br /> No story is the same and we tell
@@ -371,7 +373,7 @@ function NewBolgs() {
           </div>
           <div className="col-md-5 ">
             <div className="formBox ">
-            <form >
+            <form className="gap-3" >
     <input type="text" id="fname" name="firstname" placeholder="First Name* " className="inputForm"/>
     <input type="text" id="lname" name="lastname" placeholder="Last Name*" className="inputForm" />
     <input type="text" id="lname" name="lastname" placeholder="Email Address*" className="inputForm"/>
