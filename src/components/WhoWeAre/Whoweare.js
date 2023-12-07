@@ -1,8 +1,14 @@
 import React from 'react'
+import "../WhoWeAre/whoweare.css"
 
 function Whoweare() {
   return (
-    <div>Whoweare</div>
+    <>
+<div className=''>
+
+</div>
+
+    </>
   )
 }
 

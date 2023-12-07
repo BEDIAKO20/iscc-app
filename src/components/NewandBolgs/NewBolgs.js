@@ -165,6 +165,7 @@ function NewBolgs() {
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
 
@@ -173,6 +174,9 @@ function NewBolgs() {
           </div>
         </div>
       </div>
+
+
+
 
       <div className="container mt-5">
         <div className="NewThreeContainer">
@@ -389,6 +393,9 @@ function NewBolgs() {
               </div>
           </div>
         </div>
+      </div>
+      <div className="">
+
       </div>
     </>
   );
