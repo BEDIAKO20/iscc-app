@@ -63,6 +63,11 @@ function Navbar() {
               GetInvoloed
             </Link>
           </li>
+          <li className="nav-item ">
+            <Link className="nav-link text-white" to="/sickcell">
+            sick cell
+            </Link>
+          </li>
           {/* <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle text-white"

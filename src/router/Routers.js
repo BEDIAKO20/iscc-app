@@ -8,6 +8,7 @@ import Whoweare from '../components/WhoWeAre/Whoweare'
 import Countacts from '../components/CountactsUs/Countacts'
 import GetInvoloed from '../components/GetInvoloed/GetInvoloed'
 import Navbar from '../components/Navbar/Navbar'
+import SickDisease from "../components/SickCell/SickDisease"
 
 
 function Routers() {
@@ -25,6 +26,7 @@ function Routers() {
             <Route path='/conutacts' element={<Countacts/>}/>
             <Route path='/new&bolgs' element={<NewBolgs/>}/>
             <Route path='/getInvoloed' element={<GetInvoloed/>}/>
+            <Route path='/sickcell' element={<SickDisease/>}/>
 
         </Routes>
         </BrowserRouter>

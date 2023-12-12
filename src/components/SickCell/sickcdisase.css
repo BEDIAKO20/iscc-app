@@ -1,0 +1,94 @@
+:root {
+    --custom-color1: #929292;
+    --custom-color2: #FFF;
+    --custom-color3: #CF2D18;
+    --custom-color4: #000;
+    --custom-color5: #8E8E8E;
+    --custom-colors6: #FFF5F4;
+  }
+
+
+.interactiv-BodyIMage{
+    background-image: url(../../assets/interactive-body-male.jpg);
+    background-repeat: no-repeat;
+ border: 1xp solid blanchedalmond;
+height: 150%;
+flex-shrink: 0;
+}
+.interactiv-Text{
+background-color: var(--custom-color4);
+}
+.maleFemale-Box{
+    background: #CF2D18;
+    display: inline-flex;
+padding: 20px 28px 21px 28px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.brain-icons{
+  width: 16%;
+  margin-left:38%;
+}
+.nose-icons{
+  width: 6%;
+  margin-left: 42%;
+  padding-bottom: 2% !important;
+}
+
+.lung-icon {
+  width: 25%;
+  margin-left: 33%;
+  margin-top: 12% !important;
+
+}
+
+.liver-icons{
+  width: 40%;
+  margin-left: 59%;
+}
+
+.human-body-details{
+  color: #FFF !important;
+}
+.bodyPartHeader{
+  color: #FFF;
+font-family: Manrope;
+font-size: 42px;
+font-style: normal;
+font-weight: 800;
+line-height: 18px; /* 42.857% */
+letter-spacing: -1.68px;
+}
+.bodyPartPre{
+  color: #F5F5F5;
+font-family: Manrope;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 18px; /* 128.571% */
+letter-spacing: -0.56px;
+}
+.bodyPartHeadertwo{
+  color: #F5F5F5;
+  font-family: Manrope;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.56px;
+}
+.digestive-Icon{
+  width: 48%;
+  margin-right: 46%;
+  margin-top: 15%;
+  right: 27%;
+  position: relative; 
+}
+.reproductiveSystem{
+  width: 20%;
+  margin-left: 36%;
+  margin-top: 3%;
+}
