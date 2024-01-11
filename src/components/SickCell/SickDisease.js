@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../SickCell/sickcdisase.css";
-import brainIcon from "../../assets/brain_Icon.png";
+import brainIcon from "../../assets/brainImage.png";
 import noseIcon from "../../assets/nose_Icon.png";
 import lungIcon from "../../assets/lungs_icon.png";
 import liverIcon from "../../assets/liver_icon.png";
@@ -268,6 +268,7 @@ function SickDisease() {
     }
     setBodyPartInfo(info);
   };
+    
   return (
     <div>
       <div className="container">

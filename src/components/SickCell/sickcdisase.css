@@ -9,11 +9,13 @@
 
 
 .interactiv-BodyIMage{
-    background-image: url(../../assets/interactive-body-male.jpg);
+    background-image: url(../../assets/NounManBody.png);
     background-repeat: no-repeat;
  border: 1xp solid blanchedalmond;
 height: 150%;
 flex-shrink: 0;
+/* margin-left: 20%; */
+
 }
 .interactiv-Text{
 background-color: var(--custom-color4);
@@ -29,8 +31,9 @@ align-items: center;
 }
 
 .brain-icons{
-  width: 16%;
-  margin-left:38%;
+  width: 15%;
+  margin-left: 55%;
+  
 }
 .nose-icons{
   width: 6%;
